@@ -1,0 +1,22 @@
+{
+	"name": "Calc Extensions",
+	"description" : "Base Level Extension",
+	"version" : "1.0",
+	"manifest_version" : 2,
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"browser_action": {
+      "default_popup": "calc.html",
+      "default_icon": "get_started16.png"
+    },
+	
+	"commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+F",
+          "mac": "MacCtrl+Shift+F"
+        },
+        "description": "Opens calc.html"
+      }
+    }
+  
+}
