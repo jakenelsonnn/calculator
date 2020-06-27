@@ -5,17 +5,36 @@
 	font-family: 'PT Sans', sans-serif;
 }
 
-#result-box
+#container
 {
-	height: 75px;
 	width: 250px;
+	height: 500px;
+	display: inline-block;
+	background-color: #ff9494;
+	border: 10px solid white;
+	padding: 10px;
+	box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
+}
+
+.result
+{
+	font-size: 20px;
+	display: block;
+}
+
+.result-box
+{
+	height: 50px;
+	width: 220px;
+	margin-top: 10px;
 	background-color: white;
 	display: inline-block;
+	box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.2);
 }
 
 body
 {
-    background-color: #ff9494;
+	background-color: #CCDDFF;
     color: black;
     text-align: center;
     margin-top: 30px;
@@ -36,12 +55,13 @@ body > header
 {
    border: 10px solid white;
    display: inline-block;
-   margin: 10px 10px;
+   margin: 7px 7px;
    margin-top: 15px;
    transition: all 0.5s ease;
    background-color: white;
    font-size: 40px;
    font-weight: bold;
+   box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.2);
 }
 
 .button:hover
